@@ -379,29 +379,36 @@ form p{
     }
     .whatch .screen .mobile{
         width: 100% !important;
+        height: 350px;
     }
     .mobil .box{
         right: 30px;
-    width: 275px;
+        width: 230px;
     }
     .mobil .box img{
         width: 70px;
         height: 75px;
     }
     .whatch .box .text span{
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+    .whatch .box .text p{
+        font-size: 0.9rem;
     }
     .whatch  .text span{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .whatch .text p {
-        font-size: 1.125rem;
+        font-size: 1rem;
     }
     .header .left-nav select{
         display: none;
     }
     .footer .links {
         gap: 10px;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+    .logo img{
+        width: 110px;
     }
 }
